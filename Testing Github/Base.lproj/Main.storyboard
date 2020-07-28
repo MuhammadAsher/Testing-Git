@@ -60,9 +60,15 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n0F-2r-NUv">
+                                <rect key="frame" x="20" y="354" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+<<<<<<< HEAD
 <<<<<<< HEAD
                             <constraint firstItem="Bau-Ik-gSn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="05i-ok-umj"/>
                             <constraint firstItem="meo-sX-Yeh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2XS-Kd-JwO"/>
@@ -80,6 +86,13 @@
 =======
                             <constraint firstItem="7Vh-Ho-xsZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B6X-Jk-761"/>
                             <constraint firstItem="7Vh-Ho-xsZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="DVa-dU-Oic"/>
+>>>>>>> Asher-First
+=======
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="n0F-2r-NUv" secondAttribute="trailing" constant="20" id="8xF-jN-Qrk"/>
+                            <constraint firstItem="7Vh-Ho-xsZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B6X-Jk-761"/>
+                            <constraint firstItem="7Vh-Ho-xsZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="DVa-dU-Oic"/>
+                            <constraint firstItem="n0F-2r-NUv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kod-tz-AaV"/>
+                            <constraint firstItem="7Vh-Ho-xsZ" firstAttribute="top" secondItem="n0F-2r-NUv" secondAttribute="bottom" constant="30" id="neC-IF-8MP"/>
 >>>>>>> Asher-First
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
