@@ -22,11 +22,27 @@
                                     <constraint firstAttribute="height" constant="200" id="WKv-BW-wHs"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bau-Ik-gSn">
+                                <rect key="frame" x="165.5" y="282" width="83" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6a-y5-aBq">
+                                <rect key="frame" x="165.5" y="578" width="83" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Bau-Ik-gSn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="05i-ok-umj"/>
                             <constraint firstItem="rds-f3-CgC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9YM-bh-7Mn"/>
+                            <constraint firstItem="H6a-y5-aBq" firstAttribute="top" secondItem="rds-f3-CgC" secondAttribute="bottom" constant="30" id="KY5-Ha-zel"/>
+                            <constraint firstItem="rds-f3-CgC" firstAttribute="top" secondItem="Bau-Ik-gSn" secondAttribute="bottom" constant="30" id="goA-5n-dXx"/>
                             <constraint firstItem="rds-f3-CgC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v1L-SN-B6G"/>
+                            <constraint firstItem="H6a-y5-aBq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y9F-pH-nd4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
