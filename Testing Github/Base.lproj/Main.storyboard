@@ -25,7 +25,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bau-Ik-gSn">
                                 <rect key="frame" x="165.5" y="282" width="83" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQU-Ix-MCV">
+                                <rect key="frame" x="165.5" y="216" width="83" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6a-y5-aBq">
@@ -34,14 +40,35 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lTx-dp-i5q">
+                                <rect key="frame" x="108.5" y="99" width="197" height="32"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                    <segment title=""/>
+                                </segments>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meo-sX-Yeh">
+                                <rect key="frame" x="165.5" y="150" width="83" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Bau-Ik-gSn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="05i-ok-umj"/>
+                            <constraint firstItem="meo-sX-Yeh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2XS-Kd-JwO"/>
+                            <constraint firstItem="Bau-Ik-gSn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4fL-UN-UaH"/>
                             <constraint firstItem="rds-f3-CgC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9YM-bh-7Mn"/>
                             <constraint firstItem="H6a-y5-aBq" firstAttribute="top" secondItem="rds-f3-CgC" secondAttribute="bottom" constant="30" id="KY5-Ha-zel"/>
+                            <constraint firstItem="Bau-Ik-gSn" firstAttribute="top" secondItem="OQU-Ix-MCV" secondAttribute="bottom" constant="30" id="Z9k-qe-7bH"/>
+                            <constraint firstItem="OQU-Ix-MCV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e8J-lh-aEH"/>
+                            <constraint firstItem="lTx-dp-i5q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eCN-Ia-lRQ"/>
                             <constraint firstItem="rds-f3-CgC" firstAttribute="top" secondItem="Bau-Ik-gSn" secondAttribute="bottom" constant="30" id="goA-5n-dXx"/>
+                            <constraint firstItem="OQU-Ix-MCV" firstAttribute="top" secondItem="meo-sX-Yeh" secondAttribute="bottom" constant="30" id="lQq-IF-gYi"/>
                             <constraint firstItem="rds-f3-CgC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v1L-SN-B6G"/>
+                            <constraint firstItem="meo-sX-Yeh" firstAttribute="top" secondItem="lTx-dp-i5q" secondAttribute="bottom" constant="20" id="xzD-SI-6PR"/>
                             <constraint firstItem="H6a-y5-aBq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y9F-pH-nd4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
